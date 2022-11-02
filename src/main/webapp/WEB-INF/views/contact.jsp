@@ -118,10 +118,10 @@
                     <!-- Classy Menu -->
                     <nav class="classy-navbar justify-content-between">
 
-                        <!-- Subscribe btn -->
+                        <!-- Subscribe btn 
                         <div class="subscribe-btn">
                             <a href="#" class="btn subscribe-btn" data-toggle="modal" data-target="#subsModal">Subscribe</a>
-                        </div>
+                        </div>-->
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
