@@ -183,6 +183,7 @@ img {
   max-width: 100%;
 }
 
+
 .mt-15 {
   margin-top: 15px;
 }
@@ -795,6 +796,9 @@ img {
   height: 2px;
   margin-bottom: 20px;
 }
+/* .line{
+	white-space: pre;
+} */
 
 .single-blog-area .single-blog-content .post-tag {
   color: #a1a1a1;
@@ -1159,7 +1163,7 @@ img {
   padding: 10px 15px 0;
   margin-bottom: 0;
   font-size: 48px;
-  background-color: #000000;
+  /* background-color: #000000; */
   color: #ffffff;
   display: inline-block;
   text-transform: uppercase;
@@ -1518,25 +1522,26 @@ textarea:focus~.highlight {
   z-index: 1;
 }
 
-.map-area #googleMap {
-  width: 100%;
+.map-area #kakaoMap {
+	margin-left:5%;
+  width: 90%;
   height: 690px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .map-area #googleMap {
+  .map-area #kakaoMap {
     height: 500px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .map-area #googleMap {
+  .map-area #kakaoMap {
     height: 450px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .map-area #googleMap {
+  .map-area #kakaoMap {
     height: 400px;
   }
 }
