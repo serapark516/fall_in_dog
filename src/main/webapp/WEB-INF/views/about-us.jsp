@@ -79,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Top Social Area 
+                    <!-- Top Social Area -->
                     <div class="col-12 col-sm-4">
                         <div class="top-social-area">
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
@@ -89,7 +89,7 @@
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
                             <a href="#" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </div>
-                    </div>-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
                     <nav class="classy-navbar justify-content-between">
 
                         <!-- Subscribe btn -->
-                        <div class="subscribe-btn" style=visibility:hidden>
+                        <div class="subscribe-btn">
                             <a href="#" class="btn subscribe-btn" data-toggle="modal" data-target="#subsModal">Subscribe</a>
                         </div>
 
@@ -271,7 +271,7 @@
                 <!-- Single Blog Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-catagory-area clearfix mb-100">
-                        <img src="resources/img/notice/dog0.jpg" alt="">
+                        <img src="resources/img/notice/dog.webp" alt="">
                         <!-- Catagory Title 
                         <div class="catagory-title">
                             <a href="#">Lifestyle posts</a>
@@ -308,28 +308,28 @@
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-facts-area text-center mb-100">
                         <h2><span class="counter">25</span></h2>
-                        <p>보호중인 강아지</p> <!-- dogs 테이블 연결 -->
+                        <p>보호중인 강아지</p>
                     </div>
                 </div>
                 <!-- Single Cool Facts Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-facts-area text-center mb-100">
                         <h2><span class="counter">36</span></h2>
-                        <p>가족을 기다리는 강아지</p> <!-- dogs 테이블 연결 -->
+                        <p>가족을 기다리는 강아지</p>
                     </div>
                 </div>
                 <!-- Single Cool Facts Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-facts-area text-center mb-100">
                         <h2><span class="counter">216</span></h2>
-                        <p>회원수</p> <!-- user 테이블 연결 -->
+                        <p>회원수</p>
                     </div>
                 </div>
                 <!-- Single Cool Facts Area -->
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-cool-facts-area text-center mb-100">
                         <h2><span class="counter">16</span></h2>
-                        <p>자유게시판 새글</p> <!-- free 테이블 연결 -->
+                        <p>자유게시판 새글</p>
                     </div>
                 </div>
             </div>
@@ -337,7 +337,6 @@
     </div>
     <!-- ##### Cool Facts Area End ##### -->
 
-   
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area text-center">
@@ -363,13 +362,12 @@
                                     <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                                 </div>
 
-                                
+                              
                             </div>
                         </nav>
                     </div>
 
-                    <!-- Footer Social Area -->
-                    
+                  
                 </div>
             </div>
         </div>
