@@ -250,7 +250,7 @@
                         <div class="single-blog-content">
                             <div class="line"></div>
                             <a href="#" class="post-tag">Fall In Dog</a>
-                            <h4><a href="#" class="post-headline">모든 강아지들은 행복해야해</a></h4>
+                            <h4><a href="#" class="post-headline">이 세상 모든 반려동물들의 삶이 행복하기를</a></h4>
                             <p class="mb-3">Fall In Dog는 개인이 운영하는 보호 시설입니다. PET 분양을 가장한 보호소가 아니며 판매하는 아이들이 없는 진짜 보호소입니다. 
                             따뜻한 분양소는 보호 명목으로 수십, 수백만원을 요구하는 일이 없으며 무료로 입소를 할 수 있습니다. 
                             개인사정 등에 의한 동물들을 보호 및 생활할 수 있도록 따뜻한 보금자리가 되어주고 있습니다.</p>
@@ -271,7 +271,7 @@
                 <!-- Single Blog Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-catagory-area clearfix mb-100">
-                        <img src="resources/img/notice/dog2.jpg" alt="">
+                        <img src="resources/img/notice/dog0.jpg" alt="">
                         <!-- Catagory Title 
                         <div class="catagory-title">
                             <a href="#">Lifestyle posts</a>
