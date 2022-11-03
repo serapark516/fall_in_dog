@@ -250,7 +250,7 @@
                         <div class="single-blog-content">
                             <div class="line"></div>
                             <a href="#" class="post-tag">Fall In Dog</a>
-                            <h4><a href="#" class="post-headline">모든 강아지들은 행복해야해</a></h4>
+                            <h4><a href="#" class="post-headline">이 세상 모든 반려동물들의 삶이 행복하기를</a></h4>
                             <p class="mb-3">Fall In Dog는 개인이 운영하는 보호 시설입니다. PET 분양을 가장한 보호소가 아니며 판매하는 아이들이 없는 진짜 보호소입니다. 
                             따뜻한 분양소는 보호 명목으로 수십, 수백만원을 요구하는 일이 없으며 무료로 입소를 할 수 있습니다. 
                             개인사정 등에 의한 동물들을 보호 및 생활할 수 있도록 따뜻한 보금자리가 되어주고 있습니다.</p>
@@ -264,14 +264,14 @@
                         <div class="single-blog-content">
                             <p class="mb-3">반려동물에 대한 인식의 변화가 있다고는 하지만 아직도 여전히 반려동물을 소중한 생명이나 가족으로 대하지 않고 
                             감정없는 물건이나 개인의 소유물이라고 생각하며 유기하거나, 학대하는 일들이 끊임없이 우리 사회 안에서 벌어지고 있습니다. 
-                            따뜻한 분양소는 이러한 행위들을 방지하는데 앞장서며 이 세상 모든 반려동물들의 삶이 행복하기를 원합니다.!!!!</p>
+                            따뜻한 분양소는 이러한 행위들을 방지하는데 앞장서며 이 세상 모든 반려동물들의 삶이 행복하기를 원합니다.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Single Blog Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-catagory-area clearfix mb-100">
-                        <img src="resources/img/notice/dog2.jpg" alt="">
+                        <img src="resources/img/notice/dog.webp" alt="">
                         <!-- Catagory Title 
                         <div class="catagory-title">
                             <a href="#">Lifestyle posts</a>
@@ -337,157 +337,6 @@
     </div>
     <!-- ##### Cool Facts Area End ##### -->
 
-    <!-- ##### Blog Wrapper Start ##### -->
-    <div class="blog-wrapper section-padding-100-0 clearfix">
-        <div class="container">
-            <div class="row">
-                <!-- Single Blog Area  -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-blog-area blog-style-2 mb-100">
-                        <div class="single-blog-thumbnail">
-                            <img src="resources/img/blog-img/4.jpg" alt="">
-                            <div class="post-date">
-                                <a href="#">10 <span>march</span></a>
-                            </div>
-                        </div>
-                        <!-- Blog Content -->
-                        <div class="single-blog-content mt-50">
-                            <div class="line"></div>
-                            <a href="#" class="post-tag">Lifestyle</a>
-                            <h4><a href="#" class="post-headline">We love colors in 2018</a></h4>
-                            <p>따뜻한 분양소는 개인이 운영하는 보호 시설입니다. PET 분양을 가장한 보호소가 아니며 판매하는 아이들이 없는 진짜 보호소입니다. 
-                            따뜻한 분양소는 보호 명목으로 수십, 수백만원을 요구하는 일이 없으며 무료로 입소를 할 수 있습니다. 
-                            개인사정 등에 의한 동물들을 보호 및 생활할 수 있도록 따뜻한 보금자리가 되어주고 있습니다.</p>
-                            <div class="post-meta">
-                                <p>By <a href="#">james smith</a></p>
-                                <p>3 comments</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Blog Area  -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-blog-area blog-style-2 mb-100">
-                        <div class="single-blog-thumbnail">
-                            <img src="resources/img/blog-img/5.jpg" alt="">
-                            <div class="post-date">
-                                <a href="#">10 <span>march</span></a>
-                            </div>
-                        </div>
-                        <!-- Blog Content -->
-                        <div class="single-blog-content mt-50">
-                            <div class="line"></div>
-                            <a href="#" class="post-tag">Lifestyle</a>
-                            <h4><a href="#" class="post-headline">Party people in the house</a></h4>
-                            <p>반려동물에 대한 인식의 변화가 있다고는 하지만 아직도 여전히 반려동물을 소중한 생명이나 가족으로 대하지 않고 
-                            감정없는 물건이나 개인의 소유물이라고 생각하며 유기하거나, 학대하는 일들이 끊임없이 우리 사회 안에서 벌어지고 있습니다. 
-                            따뜻한 분양소는 이러한 행위들을 방지하는데 앞장서며 이 세상 모든 반려동물들의 삶이 행복하기를 원합니다.</p>
-                            <div class="post-meta">
-                                <p>By <a href="#">james smith</a></p>
-                                <p>3 comments</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Single Blog Area  -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="single-blog-area blog-style-2 mb-100">
-                        <div class="single-blog-thumbnail">
-                            <img src="resources/img/blog-img/6.jpg" alt="">
-                            <div class="post-date">
-                                <a href="#">10 <span>march</span></a>
-                            </div>
-                        </div>
-                        <!-- Blog Content -->
-                        <div class="single-blog-content mt-50">
-                            <div class="line"></div>
-                            <a href="#" class="post-tag">Lifestyle</a>
-                            <h4><a href="#" class="post-headline">We love colors in 2018</a></h4>
-                            <p>Curabitur venenatis efficitur lorem sed tempor. Integer aliquet tempor cursus. Nullam vestibulum convallis risus vel condimentum. Nullam auctor lorem in libero luctus, vel volutpat quam tincidunt.</p>
-                            <div class="post-meta">
-                                <p>By <a href="#">james smith</a></p>
-                                <p>3 comments</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Blog Wrapper End ##### -->
-
-    <!-- ##### Instagram Feed Area Start ##### -->
-    <div class="instagram-feed-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="insta-title">
-                        <h5>Follow us @ Instagram</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Instagram Slides -->
-        <div class="instagram-slides owl-carousel">
-            <!-- Single Insta Feed -->
-            <div class="single-insta-feed">
-                <img src="resources/img/instagram-img/1.png" alt="">
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-            <!-- Single Insta Feed -->
-            <div class="single-insta-feed">
-                <img src="resources/img/instagram-img/2.png" alt="">
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-            <!-- Single Insta Feed -->
-            <div class="single-insta-feed">
-                <img src="resources/img/instagram-img/3.png" alt="">
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-            <!-- Single Insta Feed -->
-            <div class="single-insta-feed">
-                <img src="resources/img/instagram-img/4.png" alt="">
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-            <!-- Single Insta Feed -->
-            <div class="single-insta-feed">
-                <img src="resources/img/instagram-img/5.png" alt="">
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-            <!-- Single Insta Feed -->
-            <div class="single-insta-feed">
-                <img src="resources/img/instagram-img/6.png" alt="">
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-            <!-- Single Insta Feed -->
-            <div class="single-insta-feed">
-                <img src="resources/img/instagram-img/7.png" alt="">
-                <!-- Hover Effects -->
-                <div class="hover-effects">
-                    <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ##### Instagram Feed Area End ##### -->
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area text-center">
@@ -513,31 +362,12 @@
                                     <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                                 </div>
 
-                                <!-- Nav Start -->
-                                <div class="classynav">
-                                    <ul>
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Lifestyle</a></li>
-                                        <li><a href="#">travel</a></li>
-                                        <li><a href="#">Music</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>
-                                <!-- Nav End -->
+                              
                             </div>
                         </nav>
                     </div>
 
-                    <!-- Footer Social Area -->
-                    <div class="footer-social-area mt-30">
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                        <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                    </div>
+                  
                 </div>
             </div>
         </div>
