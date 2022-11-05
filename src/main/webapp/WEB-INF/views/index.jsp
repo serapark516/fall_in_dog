@@ -130,13 +130,11 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="#">Pages</a>
+                                    <li><a href="#">Guide</a>
                                         <ul class="dropdown">
-                                            <li><a href="index">Home</a></li>
                                             <li><a href="aboutUs">About Us</a></li>
-                                            <li><a href="singlePost">Single Post</a></li>
                                             <li><a href="contact">Contact</a></li>
-                                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                                            <li><a href="noticeList">Notice</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Catagory</a>

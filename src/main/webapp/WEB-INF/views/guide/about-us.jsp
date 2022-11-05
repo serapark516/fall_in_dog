@@ -19,6 +19,7 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="resources/css/style.css">
     
+    
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script defer="defer" src="resources/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
@@ -133,13 +134,11 @@
                             <div class="classynav">
                                 <ul>
                                     <li><a href="index">Home</a></li>
-                                    <li><a href="#">Pages</a>
+                                    <li><a href="#">Guide</a>
                                         <ul class="dropdown">
-                                            <li><a href="index">Home</a></li>
                                             <li><a href="aboutUs">About Us</a></li>
-                                            <li><a href="singlePost">Single Post</a></li>
                                             <li><a href="contact">Contact</a></li>
-                                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                                            <li><a href="noticeList">Notice</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Catagory</a>
@@ -252,7 +251,7 @@
                             <a href="#" class="post-tag">Fall In Dog</a>
                             <h4><a href="#" class="post-headline">이 세상 모든 반려동물들의 삶이 행복하기를</a></h4>
                             <p class="mb-3">Fall In Dog는 개인이 운영하는 보호 시설입니다. PET 분양을 가장한 보호소가 아니며 판매하는 아이들이 없는 진짜 보호소입니다. 
-                            따뜻한 분양소는 보호 명목으로 수십, 수백만원을 요구하는 일이 없으며 무료로 입소를 할 수 있습니다. 
+                            Fall In Dog는 보호 명목으로 수십, 수백만원을 요구하는 일이 없으며 무료로 입소를 할 수 있습니다. 
                             개인사정 등에 의한 동물들을 보호 및 생활할 수 있도록 따뜻한 보금자리가 되어주고 있습니다.</p>
                         </div>
                     </div>
@@ -264,14 +263,14 @@
                         <div class="single-blog-content">
                             <p class="mb-3">반려동물에 대한 인식의 변화가 있다고는 하지만 아직도 여전히 반려동물을 소중한 생명이나 가족으로 대하지 않고 
                             감정없는 물건이나 개인의 소유물이라고 생각하며 유기하거나, 학대하는 일들이 끊임없이 우리 사회 안에서 벌어지고 있습니다. 
-                            따뜻한 분양소는 이러한 행위들을 방지하는데 앞장서며 이 세상 모든 반려동물들의 삶이 행복하기를 원합니다.</p>
+                            Fall In Dog는 이러한 행위들을 방지하는데 앞장서며 이 세상 모든 반려동물들의 삶이 행복하기를 원합니다.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Single Blog Area -->
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-lg-4">
                     <div class="single-catagory-area clearfix mb-100">
-                        <img src="resources/img/notice/dog.webp" alt="">
+                        <img src="resources/img/notice/dog0.jpg" alt="">
                         <!-- Catagory Title 
                         <div class="catagory-title">
                             <a href="#">Lifestyle posts</a>
@@ -295,9 +294,8 @@
                             <div class="line"></div>
                             <a href="#" class="post-tag">Lifestyle</a>
                             <h4><a href="#" class="post-headline">Welcome to Fall In Dog!</a></h4>
-                            <p>Fall In Dog는 입양시까지 책임지고 보호하며 
-                            안전한 입양을 통해 다시금 반려동물로서의 행복한 삶을 살아갈 수 있도록 
-                            전문 요양보호 시설을 갖추고 있습니다.</p>
+                            <p>Fall In Dog는 반려동물에 대한 인식 개선과 누구의 보살핌도 받지 못하는 유기동물을 보호하고 있습니다.
+                            병들고 늙었다는 이유만으로 버려지거나, 개인사정으로 파양을 당하는 반려동물에게 따스한 손길과 더불어 새로운 가족을 찾는 것을 도와줍니다.</p>
                         </div>
                     </div>
                 </div>

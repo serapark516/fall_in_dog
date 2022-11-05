@@ -37,9 +37,15 @@ public class HomeController {
 		return "index";
 	}
 	
+	@RequestMapping(value="/noticeList")
+	public ModelAndView noticeList(ModelAndView mv) {
+		mv.setViewName("guide/noticeList");
+		return mv;
+	} //noticeList
+	
 	@RequestMapping(value="/aboutUs")
 	public ModelAndView aboutUs(ModelAndView mv) {
-		mv.setViewName("/about-us");
+		mv.setViewName("guide/about-us");
 		return mv;
 	} //aboutUs
 	
@@ -51,7 +57,7 @@ public class HomeController {
 	
 	@RequestMapping(value="/contact")
 	public ModelAndView contact(ModelAndView mv) {
-		mv.setViewName("/contact");
+		mv.setViewName("guide/contact");
 		return mv;
 	} //contact
 	
