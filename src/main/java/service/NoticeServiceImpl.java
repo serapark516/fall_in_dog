@@ -14,8 +14,19 @@ public class NoticeServiceImpl implements NoticeService{
 	@Autowired
 	NoticeMapper mapper;
 	
+	@Override
 	public List<NoticeVO> selectList(){
 		return mapper.selectList();
+	}
+	
+	@Override
+	public NoticeVO selectOne(NoticeVO vo) {
+		return mapper.selectOne(vo);
+	}
+	
+	@Override
+	public int countUp(NoticeVO vo) {
+		return mapper.countUp(vo);
 	}
 	
 }

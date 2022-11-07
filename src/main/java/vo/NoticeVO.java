@@ -11,5 +11,6 @@ public class NoticeVO {
 	private String regdate;
 	private int cnt;
 	private String subject;
+	private String img;
 	
 }

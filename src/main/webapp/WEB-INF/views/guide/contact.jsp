@@ -145,29 +145,11 @@
                                             <li><a href="noticeList">Notice</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Catagory</a>
+                                    <li><a href="#">Community</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">Catagory 1</a></li>
-                                            <li><a href="#">Catagory 1</a></li>
-                                            <li><a href="#">Catagory 1</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                    <li><a href="#">Catagory 2</a>
-                                                        <ul class="dropdown">
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Catagory 1</a></li>
-                                            <li><a href="#">Catagory 1</a></li>
+                                            <li><a href="epilogue">입양후기</a></li>
+                                            <li><a href="free">자유게시판</a></li>
+                                            <li><a href="share">나눔장터</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="about-us.html">About Us</a></li>
@@ -280,7 +262,7 @@
         <br>
         <div class="con_box">
         <h5>대중교통 이용시</h5>
-        <table>
+        <table class="ctable">
         <tbody>
         	<tr>
         		<th>지하철</th>

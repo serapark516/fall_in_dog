@@ -9,5 +9,13 @@
 	from notice order by nno desc
 </select>
 
+<select id="selectOne" resultType="vo.NoticeVO">
+	select * from notice where nno=#{nno}
+</select>
+
+<!-- ** 조회수 증가	 -->
+<update id="countUp">
+	update notice set cnt=cnt+1 where nno=#{nno}
+</update>
 
 </mapper> 

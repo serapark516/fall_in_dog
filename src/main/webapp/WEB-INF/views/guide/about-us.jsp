@@ -100,7 +100,7 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12">
-                        <a href="index" class="original-logo"><img src="resources/img/core-img/logo.png" alt=""></a>
+                        <a href="home" class="original-logo"><img src="resources/img/core-img/logo.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -141,29 +141,11 @@
                                             <li><a href="noticeList">Notice</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Catagory</a>
+                                    <li><a href="#">Community</a>
                                         <ul class="dropdown">
-                                            <li><a href="#">Catagory 1</a></li>
-                                            <li><a href="#">Catagory 1</a></li>
-                                            <li><a href="#">Catagory 1</a>
-                                                <ul class="dropdown">
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                    <li><a href="#">Catagory 2</a>
-                                                        <ul class="dropdown">
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                            <li><a href="#">Catagory 3</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                    <li><a href="#">Catagory 2</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Catagory 1</a></li>
-                                            <li><a href="#">Catagory 1</a></li>
+                                            <li><a href="epilogue">입양후기</a></li>
+                                            <li><a href="free">자유게시판</a></li>
+                                            <li><a href="share">나눔장터</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="aboutUsl">About Us</a></li>
