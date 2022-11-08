@@ -3,8 +3,11 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:beans="http://www.springframework.org/schema/beans"
 	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+<<<<<<< HEAD
 	xmlns:websocket="http://www.springframework.org/schema/websocket"
 	
+=======
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 	xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd
 		http://www.springframework.org/schema/websocket http://www.springframework.org/schema/websocket/spring-websocket-4.3.xsd
@@ -15,6 +18,12 @@
 	=> 강제로 xmlns: 값을 넣어줄 수 있다. (예 -> xmlns:mybatis-spring="http://myba... 
 	=> 단, 이때는 xsi:schemaLocation=... 에도 해당하는 url 값을 추가 해야한다. 	
 -->
+<<<<<<< HEAD
+=======
+	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+	
+	<!-- Enables the Spring MVC @Controller programming model -->
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 	<annotation-driven />
 	
 	<context:component-scan base-package="com.fallindog.fid, service, util" />
@@ -25,6 +34,7 @@
 		<beans:property name="prefix" value="/WEB-INF/views/" />
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
+<<<<<<< HEAD
 
    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
    <!-- *** jsonView 설정 
@@ -43,6 +53,21 @@
    
    
 	<!-- ** BeanNameViewResolver
+=======
+	
+	<context:component-scan base-package="com.fallindog.fid, service, util" />
+	
+   <!-- *** jsonView 설정 
+   		1) BeanNameViewResolver
+   		2) jsonView 설정-->
+   <beans:bean id="viewResolver" 
+         class="org.springframework.web.servlet.view.BeanNameViewResolver">
+      <beans:property name="order" value="1" />
+   </beans:bean>
+   <beans:bean id="jsonView" class="net.sf.json.spring.web.servlet.view.JsonView" /> 	
+
+<!-- ** BeanNameViewResolver
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
    => id 에 해당하는 Bean이 View 를 처리하도록 해주는 ViewResolver 
       컨트롤러에서  mv.setViewName("downloadView") 하게되면  
       일반적인 경우 InternalResourceViewResolver 에 의해  views/downloadView.jsp 를 찾음,
@@ -59,7 +84,18 @@
             그래서 null 값이 있을수 없는 InternalResourceViewResolver 가 우선순위가 높게 되면,
             다른 viewResolver는 사용되지 않기 때문에 (항상 뷰 이름에 매핑되는 뷰 객체를 리턴하기 때문)
      InternalResourceViewResolver 는 우선순위가 가장 낮아야 한다. 
+<<<<<<< HEAD
 	-->
+=======
+-->
+
+   <!-- ** Image DownLoad 
+       => 다운로드를 처리할 ViewResolver 클래스 등록  ( Java Code 작성 )
+         => id="downloadView" 와  컨트롤러의 매핑메서드에서 리턴된 view name 과 같아야 한다.     -->
+   <!-- <beans:bean id="downloadView" class="downTest.DownloadView" /> -->
+  
+	
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
        ** Image Upload : MultipartResolver 설정 -->
    <beans:bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
@@ -70,6 +106,7 @@
          : 대부분의 Resolver로 끝나는 클래스의 경우에는 이미 정해져있기 때문에 변경불가능.
       => maxUploadSize 는 지정하지 않으면 default 값은 -1 이며 크기 무제한이 됨. 
          다양하게 변경하며 Test  
+<<<<<<< HEAD
    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->
 
 <!-- 웹 소켓 설정~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
@@ -112,4 +149,36 @@
 	</beans:bean>
 	<mybatis-spring:scan base-package="mapperInterface"/>
 	-->
+=======
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  -->	
+	
+	
+   <!-- Mybatis 설정 : interface 방식 *****************************************  
+      => DAO 에서의 sql 구문을 xml (Mapper) 로 처리
+      => DB_Connection, Mybatis 설정
+      
+      1) DB_Connection  -->
+	<beans:bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
+		<beans:property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+		<beans:property name="url" value="jdbc:mysql://localhost:3306/mydb?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true" />
+		<beans:property name="username" value="root" />
+		<beans:property name="password" value="0607"></beans:property>
+	</beans:bean>
+	
+	<!-- 2) Mybatis 설정 
+      => SqlSessionFactory 
+         - MyBatis 와 연동시 DB 연결과 SQL 실행의 핵심 클래스
+         - SqlSessionFactoryBean 에 의해 생성됨  
+      => base-package 등록 : DAO 필요 없이 interface ~Mapper.java 사용을 위한 경로 맞춰주는 설정 -->
+      
+	    <beans:bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+      	<beans:property name="dataSource" ref="dataSource" />
+      	
+      <!-- 
+      <beans:property name="mapperLocations" value="classpath:/mappers/**/*Mapper.xml" />
+      => interface 방식으로 적용하면 필요없음 -->
+	</beans:bean>
+	
+	<mybatis-spring:scan base-package="mapperInterface"/>
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 </beans:beans>
