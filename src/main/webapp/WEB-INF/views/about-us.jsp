@@ -1,11 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<<<<<<< HEAD
     
-=======
-<!--     test -->
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 <html>
 <head>
     <meta charset="UTF-8">
@@ -254,11 +250,7 @@
                         <div class="single-blog-content">
                             <div class="line"></div>
                             <a href="#" class="post-tag">Fall In Dog</a>
-<<<<<<< HEAD
                             <h4><a href="#" class="post-headline">모든 강아지들은 행복해야해</a></h4>
-=======
-                            <h4><a href="#" class="post-headline">이 세상 모든 반려동물들의 삶이 행복하기를</a></h4>
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                             <p class="mb-3">Fall In Dog는 개인이 운영하는 보호 시설입니다. PET 분양을 가장한 보호소가 아니며 판매하는 아이들이 없는 진짜 보호소입니다. 
                             따뜻한 분양소는 보호 명목으로 수십, 수백만원을 요구하는 일이 없으며 무료로 입소를 할 수 있습니다. 
                             개인사정 등에 의한 동물들을 보호 및 생활할 수 있도록 따뜻한 보금자리가 되어주고 있습니다.</p>
@@ -272,22 +264,14 @@
                         <div class="single-blog-content">
                             <p class="mb-3">반려동물에 대한 인식의 변화가 있다고는 하지만 아직도 여전히 반려동물을 소중한 생명이나 가족으로 대하지 않고 
                             감정없는 물건이나 개인의 소유물이라고 생각하며 유기하거나, 학대하는 일들이 끊임없이 우리 사회 안에서 벌어지고 있습니다. 
-<<<<<<< HEAD
                             따뜻한 분양소는 이러한 행위들을 방지하는데 앞장서며 이 세상 모든 반려동물들의 삶이 행복하기를 원합니다.</p>
-=======
-                            따뜻한 분양소는 이러한 행위들을 방지하는데 앞장서며 이 세상 모든 반려동물들의 삶이 행복하기를 원합니다.!</p>
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                         </div>
                     </div>
                 </div>
                 <!-- Single Blog Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-catagory-area clearfix mb-100">
-<<<<<<< HEAD
                         <img src="resources/img/notice/dog2.jpg" alt="">
-=======
-                        <img src="resources/img/notice/dog.webp" alt="">
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                         <!-- Catagory Title 
                         <div class="catagory-title">
                             <a href="#">Lifestyle posts</a>
@@ -353,7 +337,6 @@
     </div>
     <!-- ##### Cool Facts Area End ##### -->
 
-<<<<<<< HEAD
     <!-- ##### Blog Wrapper Start ##### -->
     <div class="blog-wrapper section-padding-100-0 clearfix">
         <div class="container">
@@ -505,8 +488,6 @@
         </div>
     </div>
     <!-- ##### Instagram Feed Area End ##### -->
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 
     <!-- ##### Footer Area Start ##### -->
     <footer class="footer-area text-center">
@@ -532,7 +513,6 @@
                                     <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                                 </div>
 
-<<<<<<< HEAD
                                 <!-- Nav Start -->
                                 <div class="classynav">
                                     <ul>
@@ -545,14 +525,10 @@
                                     </ul>
                                 </div>
                                 <!-- Nav End -->
-=======
-                              
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                             </div>
                         </nav>
                     </div>
 
-<<<<<<< HEAD
                     <!-- Footer Social Area -->
                     <div class="footer-social-area mt-30">
                         <a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
@@ -562,9 +538,6 @@
                         <a href="#" data-toggle="tooltip" data-placement="top" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
                         <a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
-=======
-                  
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                 </div>
             </div>
         </div>

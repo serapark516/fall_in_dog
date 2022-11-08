@@ -9,14 +9,9 @@
 :: Last Updated: April 3, 2018
 -------------------------------------------------- */
 /* :: Import Fonts */
-<<<<<<< HEAD
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
 @import url(bootstrap.min.css); 
-=======
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
-@import url(bootstrap.min.css);
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 @import url(classy-nav.css);
 @import url(animate.css);
 @import url(owl.carousel.css);
@@ -36,7 +31,6 @@
   font-style: normal;
 }
 
-<<<<<<< HEAD
 @font-face {
      font-family: 'score';
      src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
@@ -63,8 +57,6 @@
   font-style: normal;
 }
 
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 /* :: Import All CSS */
 /* :: Base CSS */
 * {
@@ -73,14 +65,9 @@
 }
 
 body {
-<<<<<<< HEAD
   /* font-family: "helveticaneuemedium"; */
   background-color: #ffffff;
   font-family:"dalseomedium"
-=======
-  font-family: "helveticaneuemedium";
-  background-color: #ffffff;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 }
 
 h1,
@@ -92,22 +79,14 @@ h6 {
   color: #000000;
   font-weight: 500;
   line-height: 1.3;
-<<<<<<< HEAD
   font-family: "dalseomedium";
-=======
-  font-family: "helveticaneuemedium";
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 }
 
 p {
   color: #878787;
   font-size: 14px;
   line-height: 1.4;
-<<<<<<< HEAD
   font-family: "score";
-=======
-  font-family: "helveticaneuemedium";
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 }
 
 a {
@@ -116,22 +95,14 @@ a {
   text-decoration: none;
   outline: none;
   font-size: 14px;
-<<<<<<< HEAD
   /* font-family: "helveticaneuemedium"; */
   font-family:"dalseomedium";
-=======
-  font-family: "helveticaneuemedium";
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   color: #4f4d4d;
 }
 
 a:hover,
 a:focus {
-<<<<<<< HEAD
   font-family: "dalseobold";
-=======
-  font-family: "helveticaneuemedium";
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   text-decoration: none;
@@ -139,14 +110,11 @@ a:focus {
   font-size: 14px;
 }
 
-<<<<<<< HEAD
 
 #breakingNewsTicker{
   font-family: 'dalseobold';
 }
 
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 #preloader {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -165,14 +133,11 @@ a:focus {
   z-index: 1000000;
 }
 
-<<<<<<< HEAD
 .fa-angle-left:before{
 	top:50px;
 }
 
 
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 #original-load {
   width: 70px;
   height: 70px;
@@ -257,10 +222,6 @@ img {
   max-width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 .mt-15 {
   margin-top: 15px;
 }
@@ -358,12 +319,9 @@ img {
 .section-padding-100 {
   padding: 100px 0;
 }
-<<<<<<< HEAD
 .section-padding-30 {
   padding: 30px 0;
 }
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 
 .section-padding-50 {
   padding: 50px 0;
@@ -460,24 +418,15 @@ img {
   line-height: 59px;
   text-transform: uppercase;
   letter-spacing: 3px;
-<<<<<<< HEAD
   font-family: "score", sans-serif;
-=======
-  font-family: "Open Sans", sans-serif;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
   color: #000000;
 }
 
 .original-btn:hover,
 .original-btn:focus {
-<<<<<<< HEAD
   font-family: "score", sans-serif;
   color: #30336b;
-=======
-  font-family: "Open Sans", sans-serif;
-  color: #ffffff;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   border-color: #30336b;
   background-color: #30336b;
 }
@@ -689,11 +638,7 @@ img {
   height: 60px;
   border: 1px solid #787878;
   font-size: 14px;
-<<<<<<< HEAD
   font-family: "score", sans-serif;
-=======
-  font-family: "Open Sans", sans-serif;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   font-style: italic;
@@ -771,31 +716,19 @@ img {
 .hero-slides .single-hero-slide .slide-content .post-tag a {
   display: inline-block;
   padding: 3px 10px;
-<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.3);
-=======
-  background-color: #000000;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   border-radius: 2px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 10px;
-<<<<<<< HEAD
   color: white;
-=======
-  color: #ffffff;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 }
 
 .hero-slides .single-hero-slide .slide-content h2 a {
   font-size: 40px;
   display: inline-block;
   padding: 12px 20px 5px;
-<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.3);
-=======
-  background-color: #000000;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   border-radius: 0;
   text-transform: uppercase;
   color: #ffffff;
@@ -827,11 +760,7 @@ img {
 
 .hero-slides .owl-nav .owl-prev,
 .hero-slides .owl-nav .owl-next {
-<<<<<<< HEAD
   /* background-color: #cbcbcb;  화살표 배경 막아둠 수정*/
-=======
-  background-color: #cbcbcb;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   top: 50%;
   margin-top: -20px;
   width: 40px;
@@ -840,11 +769,7 @@ img {
   position: absolute;
   z-index: 20;
   text-align: center;
-<<<<<<< HEAD
   font-size: 70px;
-=======
-  font-size: 20px;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   color: #ffffff;
   line-height: 42px;
   border-radius: 2px;
@@ -856,13 +781,8 @@ img {
 .hero-slides .owl-nav .owl-prev:focus,
 .hero-slides .owl-nav .owl-next:hover,
 .hero-slides .owl-nav .owl-next:focus {
-<<<<<<< HEAD
   /* background-color: #0d0d0d; */
   color: orange;
-=======
-  background-color: #0d0d0d;
-  color: #ffffff;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 }
 
 .hero-slides .owl-nav .owl-next {
@@ -901,20 +821,12 @@ img {
   text-transform: uppercase;
   color: #000000;
   line-height: 1;
-<<<<<<< HEAD
   font-family: "dalseomedium";
-=======
-  font-family: "helveticaneuemedium";
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 }
 
 .single-blog-area .single-blog-thumbnail .post-date a span {
   display: block;
-<<<<<<< HEAD
   font-family: "score", sans-serif;
-=======
-  font-family: "Open Sans", sans-serif;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   font-size: 11px;
   color: #878787;
 }
@@ -925,12 +837,6 @@ img {
   height: 2px;
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
-=======
-/* .line{
-	white-space: pre;
-} */
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 
 .single-blog-area .single-blog-content .post-tag {
   color: #a1a1a1;
@@ -964,12 +870,8 @@ img {
   }
 }
 
-<<<<<<< HEAD
 .single-blog-area .single-blog-content>li {
   width:500px;
-=======
-.single-blog-area .single-blog-content>p {
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   line-height: 2;
   margin-bottom: 70px;
 }
@@ -1009,11 +911,7 @@ img {
 }
 
 .single-catagory-area .catagory-title {
-<<<<<<< HEAD
   background-color: rgba(0, 0, 0, 0.1);
-=======
-  background-color: #000000;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   top: 50%;
   left: 50%;
   width: 226px;
@@ -1037,19 +935,11 @@ img {
 }
 
 .single-catagory-area .catagory-title:hover {
-<<<<<<< HEAD
   background-color: black;
 }
 
 .single-catagory-area .catagory-title a {
   font-size: 30px;
-=======
-  background-color: #30336b;
-}
-
-.single-catagory-area .catagory-title a {
-  font-size: 10px;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   color: #ffffff;
   letter-spacing: 3px;
   display: inline-block;
@@ -1113,11 +1003,7 @@ img {
   border-bottom: 1px solid #bbbec1;
   font-size: 12px;
   font-style: italic;
-<<<<<<< HEAD
   font-family: "score", sans-serif;
-=======
-  font-family: "Open Sans", sans-serif;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   color: #bbbec1;
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -1141,11 +1027,7 @@ img {
   height: 40px;
   border: 1px solid #787878;
   font-size: 13px;
-<<<<<<< HEAD
   font-family: "score", sans-serif;
-=======
-  font-family: "Open Sans", sans-serif;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
   font-style: italic;
@@ -1218,11 +1100,7 @@ img {
 .sidebar-widget-area .single-blog-post .post-content .post-meta p a {
   font-size: 11px;
   color: #878787;
-<<<<<<< HEAD
   font-family: "score", sans-serif;
-=======
-  font-family: "Open Sans", sans-serif;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   text-transform: uppercase;
 }
 
@@ -1292,13 +1170,10 @@ img {
   z-index: 1;
   clear: both;
 }
-<<<<<<< HEAD
 .single-insta-feed img{
 	border-radius: 10%;
 }
 
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 
 .instagram-feed-area .single-insta-feed .hover-effects a {
   display: block;
@@ -1313,11 +1188,8 @@ img {
   background-color: rgba(48, 51, 107, 0.95);
   opacity: 0;
   visibility: hidden;
-<<<<<<< HEAD
   border-radius: 10%;
   
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 }
 
 .instagram-feed-area .single-insta-feed:hover .hover-effects a,
@@ -1332,22 +1204,15 @@ img {
   height: 210px;
 }
 
-<<<<<<< HEAD
 .single-blog-content li{
 	width:100%;
 }
 
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 .breadcumb-area .breadcumb-content h2 {
   padding: 10px 15px 0;
   margin-bottom: 0;
   font-size: 48px;
-<<<<<<< HEAD
   background-color: #000000;
-=======
-  /* background-color: #000000; */
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   color: #ffffff;
   display: inline-block;
   text-transform: uppercase;
@@ -1419,19 +1284,11 @@ img {
 .blog-post-author .author-info p {
   line-height: 2;
   margin-bottom: 0;
-<<<<<<< HEAD
   font-family: "score", sans-serif;
 }
 
 .single-blog-wrapper .single-blog-area .single-blog-content p {
   font-family: "score", sans-serif;
-=======
-  font-family: "Open Sans", sans-serif;
-}
-
-.single-blog-wrapper .single-blog-area .single-blog-content p {
-  font-family: "Open Sans", sans-serif;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 }
 
 .comment_area {
@@ -1493,22 +1350,14 @@ img {
 .comment_area .comment-content .comment-meta p {
   margin-bottom: 15px;
   font-size: 14px;
-<<<<<<< HEAD
   font-family: "score", sans-serif;
-=======
-  font-family: "Open Sans", sans-serif;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   line-height: 2;
 }
 
 .comment_area .comment-content .comment-meta .comment-reply {
   font-size: 11px;
   color: #000000;
-<<<<<<< HEAD
   font-family: "score", sans-serif;
-=======
-  font-family: "Open Sans", sans-serif;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   text-transform: uppercase;
 }
 
@@ -1722,43 +1571,25 @@ textarea:focus~.highlight {
   z-index: 1;
 }
 
-<<<<<<< HEAD
 .map-area #googleMap {
   width: 100%;
-=======
-.map-area #kakaoMap {
-	margin-left:5%;
-  width: 90%;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   height: 690px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-<<<<<<< HEAD
   .map-area #googleMap {
-=======
-  .map-area #kakaoMap {
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
     height: 500px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-<<<<<<< HEAD
   .map-area #googleMap {
-=======
-  .map-area #kakaoMap {
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
     height: 450px;
   }
 }
 
 @media only screen and (max-width: 767px) {
-<<<<<<< HEAD
   .map-area #googleMap {
-=======
-  .map-area #kakaoMap {
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
     height: 400px;
   }
 }
@@ -1818,10 +1649,7 @@ textarea:focus~.highlight {
   animation: lens-out 0.5s linear 1 forwards;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 #search-wrapper:after {
   position: absolute;
   bottom: 3px;
@@ -2115,11 +1943,7 @@ textarea:focus~.highlight {
 
 /* Footer Area CSS */
 .footer-area {
-<<<<<<< HEAD
   padding: 0 0 30px 0;
-=======
-  padding: 60px 0;
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   position: relative;
   z-index: 1;
 }
@@ -2290,7 +2114,6 @@ textarea:focus~.highlight {
   }
 }
 
-<<<<<<< HEAD
 .justifyww{
 	-webkit-box-pack: justify!important;
 }
@@ -2356,8 +2179,6 @@ textarea:focus~.highlight {
 
 
 
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 /* The End */
 
 /*# sourceMappingURL=style.css.map */

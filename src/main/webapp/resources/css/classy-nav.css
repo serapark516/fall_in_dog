@@ -85,7 +85,8 @@ img {
 .justify-content-between {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+   justify-content: space-between;  
+  }
 
 .justify-content-center {
   -webkit-box-pack: center;
@@ -102,7 +103,9 @@ img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -ms-grid-row-align: center;
-  align-items: center; }
+  align-items: center;  
+  justify-content:center;
+  }
   .classy-navbar .nav-brand {
     font-size: 26px;
     font-weight: 500;
@@ -142,13 +145,8 @@ img {
 /* Down Arrow Icon for Megamenu */
 @font-face {
   font-family: 'icomoon';
-<<<<<<< HEAD
   src: url("fonts/icomoon.eot?fftrrv");
   src: url("fonts/icomoon.eot?fftrrv#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?fftrrv") format("truetype"), url("fonts/icomoon.woff?fftrrv") format("woff"), url("fonts/icomoon.svg?fftrrv#icomoon") format("svg");
-=======
-  src: url("../fonts/icomoon.eot?fftrrv");
-  src: url("../fonts/icomoon.eot?fftrrv#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?fftrrv") format("truetype"), url("../fonts/icomoon.woff?fftrrv") format("woff"), url("../fonts/icomoon.svg?fftrrv#icomoon") format("svg");
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"],

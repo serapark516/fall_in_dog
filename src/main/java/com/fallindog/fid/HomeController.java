@@ -24,11 +24,7 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-<<<<<<< HEAD
 	@RequestMapping(value = {"/", "/home","/index"}, method = RequestMethod.GET)
-=======
-	@RequestMapping(value = {"/", "/index"}, method = RequestMethod.GET)
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 	public String index(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
@@ -39,16 +35,13 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "index";
+		return "home";
 	}
 	
 	@RequestMapping(value="/aboutUs")
 	public ModelAndView aboutUs(ModelAndView mv) {
 		mv.setViewName("/about-us");
-<<<<<<< HEAD
 		
-=======
->>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 		return mv;
 	} //aboutUs
 	
