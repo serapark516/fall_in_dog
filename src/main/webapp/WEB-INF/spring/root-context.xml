@@ -1,45 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-   xsi:schemaLocation="http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
-   
-   <!-- Root Context: defines shared resources visible to all other web components -->
-   
-   
-   <!-- JUnit Spring DI Test -->
-   <!-- <bean class="util.MemberDAO" lazy-init="true" />
-   <bean class="vo.MemberVO" lazy-init="true" />
-    -->
-   
-   
-   
-   <!-- ********** Mybatis 설정 ********** 
-   
-   Mybatis 설정: interface방식
-   => DAO에서의 sql구문을 xml(Mapper)로 처리
-   => DB_Connection, Mybatis 설정
-   
-   1) DB_Connection
-   => allowPublicKeyRetrieval=true: local DB open하지 않아도 connection허용    -->
-   <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
-      <property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
-      <property name="url" value="jdbc:mysql://localhost:3306/mydb?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true" />
-      <property name="username" value="root" />
-      <property name="password" value="0607" />
-   </bean>
-   
-<!--
-   2) Mybatis 설정
-   => SqlSessionFactory 
-      - MyBatis와 연동시 DB연결과 SQL실행의 핵심 클래스
-      - SqlSessionFactoryBean에 의해 생성 됨  
-   => base-package 등록: DAO필요 없이 interface ~Mapper.java사용을 위한 경로를 맞춰주는 설정 -->
-   <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-      <property name="dataSource" ref="dataSource" />
-<!-- <beans:property name="mapperLocations" value="classpath:/mappers/**/*Mapper.xml" />
-      => interface 방식으로 적용하면 필요없음
-     => * 없는 것 포함 모든 문자 / ** 없는 것 포함 모든 폴더
--->
-   </bean>
-   
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
+						http://www.springframework.org/schema/beans 
+						https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	
+	<!-- JUnit Spring DI Test -->
+<!-- 	<bean class="util.MemberDAO" lazy-init="true" />
+	<bean class="vo.MemberVO" lazy-init="true" />
+	 -->
+	<!-- Mybatis 설정 : interface 방식, root-context 에 설정 ****************************  
+		=> DAO 에서의 sql 구문을 xml (Mapper) 로 처리
+		=> DB_Connection, Mybatis 설정 -->
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/dog?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true" />
+		<property name="username" value="root" />
+		<property name="password" value="mysql" />
+	</bean>
+	<bean id="sqlSessionFactory"
+		class="org.mybatis.spring.SqlSessionFactoryBean">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	<mybatis-spring:scan base-package="mapperInterface"/>
+	
 </beans>

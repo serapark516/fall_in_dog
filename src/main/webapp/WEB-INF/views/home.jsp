@@ -15,7 +15,11 @@
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   	crossorigin="anonymous"></script>
-  	
+	
+	
+
+    
+    
     <!-- <script defer="defer" src="resources/js/jquery/jquery-3.2.1.min.js" ></script> -->
     <!-- Popper js -->
     <script defer="defer" src="resources/js/popper.min.js"></script>
@@ -85,14 +89,15 @@
                     </div>
                     <!-- Top Social Area -->
                     <div class="col-12 col-sm-4">
-                        <div class="top-social-area">
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="로그인"><i class="fa fa-linkedin" style="font-size:30px" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="회원가입"><i class="fa fa-user-plus" style="font-size:30px" aria-hidden="true"></i></a>
+                        <div class="top-social-area dologin">
                         	<c:if test="${empty loginID}">
+                            <a href="loginf" data-toggle="tooltip" data-placement="bottom" title="로그인"><i class="fa fa-linkedin" style="font-size:30px" aria-hidden="true"></i></a>
+                            <a href="joinf" data-toggle="tooltip" data-placement="bottom" title="회원가입"><i class="fa fa-user-plus" style="font-size:30px" aria-hidden="true"></i></a>
                         	</c:if>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="로그아웃"><i class="fa fa-sign-out" style="font-size:30px" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="마이페이지"><i class="fa fa-cog " style="font-size:30px" aria-hidden="true"></i></a>
                             <c:if test="${!empty loginID}">
+                            ${loginID}님 환영합니다&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="logout" data-toggle="tooltip" data-placement="bottom" title="로그아웃"><i class="fa fa-sign-out" style="font-size:30px" aria-hidden="true"></i></a>
+                            <a href="mdetail?jCode=U" data-toggle="tooltip" data-placement="bottom" title="마이페이지"><i class="fa fa-cog " style="font-size:30px" aria-hidden="true"></i></a>
                             </c:if>
                         </div>
                     </div>
@@ -241,7 +246,7 @@
                                 <div class="post-tag">
                                     <a href="#" data-animation="fadeInUp" style="background-color:rgba(0, 0, 0, 0.3);">Fall in Dog</a>
                                 </div>
-                                <h2 data-animation="fadeInUp" data-delay="250ms"><a href="#" style="background-color:rgba(0, 0, 0, 0.3);">대한민국 올바른 반려동물문화를 <br>선도하는 폴인독</a></h2>
+                                <h2 data-animation="fadeInUp" data-delay="250ms"><a href="#" style="background-color:rgba(0, 0, 0, 0.3);">올바른 반려동물문화를 <br>선도하는 폴인독</a></h2>
                             </div>
                         </div>
                     </div>
@@ -271,7 +276,7 @@
                                 <div class="post-tag">
                                     <a href="#" data-animation="fadeInUp" style="background-color:rgba(0, 0, 0, 0.3);">Fall in Dog</a>
                                 </div>
-                                <h2 data-animation="fadeInUp" data-delay="250ms"><a href="single-post.html" style="background-color:rgba(0, 0, 0, 0.3);">폴인독이 깨끗한<br>거리문화를 위해<br>배변봉투 무료나눔을<br>시작하였습니다</a></h2>
+                                <h2 data-animation="fadeInUp" data-delay="250ms"><a href="single-post.html" style="background-color:rgba(0, 0, 0, 0.3);"> 깨끗한 거리문화를 위해<br>배변봉투 무료나눔을<br>시작하였습니다</a></h2>
                             </div>
                         </div>
                     </div>
@@ -302,9 +307,9 @@
                 
 	                <div class="col-12 col-md-6 col-lg-4">
 	                    <div class="single-catagory-area clearfix mb-100">
-	                        <img class="height-300" src="resources/img/blog-img/company12.jpg" alt="">
+	                        <img class="height-300 boradi" src="resources/img/blog-img/company.jpg" alt="">
 	                        <!-- Catagory Title -->
-	                        <div class="catagory-title height-300">
+	                        <div class="catagory-title height-300 boradi">
 	                            <a href="#">입양안내</a>
 	                        </div>
 	                    </div>
@@ -312,9 +317,9 @@
 	                <!-- Single Blog Area -->
 	                <div class="col-12 col-md-6 col-lg-4">
 	                    <div class="single-catagory-area clearfix mb-100">
-	                        <img class="height-300" src="resources/img/blog-img/company23.jpg" alt="">
+	                        <img class="height-300 boradi" src="resources/img/blog-img/company2.jpg" alt="">
 	                        <!-- Catagory Title -->
-	                        <div class="catagory-title">
+	                        <div class="catagory-title boradi">
 	                            <a href="#">오시는길</a>
 	                        </div>
 	                    </div>
@@ -428,7 +433,7 @@
 
 
 <!-- /.section분양후기 -->
-   <h1 style="text-align:center; padding-bottom:40px; "><a href="#" style="font-size:3rem; font-weight:500;">분양후기</a></h1>
+   <h1 style="text-align:center; padding:40px; "><a href="#" style="font-size:3rem; font-weight:500;">분양후기</a></h1>
 	<div class="container2">
 		<div class="row ">
 			<div class="col-md-3">
@@ -590,7 +595,6 @@
 E-mail : fallindogkorea@gmail.com <br>
 Copyright &copy;<script>document.write('fallindog.com');</script> all right reserved 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-
     </footer>
 
 

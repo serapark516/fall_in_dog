@@ -721,7 +721,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 10px;
-  color: black;
+  color: white;
 }
 
 .hero-slides .single-hero-slide .slide-content h2 a {
@@ -781,8 +781,8 @@ img {
 .hero-slides .owl-nav .owl-prev:focus,
 .hero-slides .owl-nav .owl-next:hover,
 .hero-slides .owl-nav .owl-next:focus {
-  background-color: #0d0d0d;
-  color: #ffffff;
+  /* background-color: #0d0d0d; */
+  color: orange;
 }
 
 .hero-slides .owl-nav .owl-next {
@@ -911,7 +911,7 @@ img {
 }
 
 .single-catagory-area .catagory-title {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
   top: 50%;
   left: 50%;
   width: 226px;
@@ -2133,6 +2133,9 @@ textarea:focus~.highlight {
 	text-align:center;
 	margin:auto;
 }
+.container3{
+	justify-content:center;
+}
 
 .aligin-item-center{
 	-webkit-box-align: end!important;
@@ -2148,43 +2151,27 @@ textarea:focus~.highlight {
 .centerdo{
 	justify-content: center;
 }
-
-
-
-
-
-.single-adopt-feed {
-  position: relative;
-  z-index: 1;
-  clear: both;
+.tcenter{
+	text-align:center;
 }
-.single-adopt-feed img{
-	border-radius: 10%;
+.mauto{
+	margin:auto;
 }
-
-
-.instagram-feed-area .single-adopt-feed .hover-effectx a {
-  display: block;
-  color: #ffffff;
-  font-size: 30px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 10;
-  background-color: rgba(0,0,0,0.4);
-  opacity: 0;
-  visibility: hidden;
-  border-radius: 10%;
-  
+.dologin{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.dologin p{
+	color: #878787;
+    font-size: 20px;
+    line-height: 0;
+    font-family: "score";
+}
+.boradi{
+	border-radius:10%;
 }
 
-.instagram-feed-area .single-adopt-feed:hover .hover-effectx a,
-.instagram-feed-area .single-adopt-feed:focus .hover-effectx a {
-  opacity: 1;
-  visibility: visible;
-}
 
 /* .fa{
 	font-size:inherit 에서 70px로 조정   	

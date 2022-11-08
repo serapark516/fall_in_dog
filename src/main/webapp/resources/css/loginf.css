@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+#bodyWrap.login .cnts_title {
+    height: 88px;
+    margin: 0 auto;
+    border-bottom: none;
+    text-align: center;
+}
+.cnts_title {
+    height: 89px;
+    border-bottom: 1px solid #e3e3e3;
+    text-align: center;
+    font-weight: normal;
+}
+.sub_container {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    width: 995px;
+    *zoom: 1;
+}
+body, p, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, fieldset, legend, input, textarea, select, button, code, label, em, span {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    line-height: 20px;
+    word-break: break-all;
+}
+div {
+    display: block;
+}
+#bodyWrap {
+    padding: 20px 0 45px 0;
+}
+.box_type_1.renewal1904 {
+    border: none;
+    padding: 0;
+}
+
+.login_wrap {
+    overflow: hidden;
+}
+.box_type_1 {
+    padding: 40px;
+    background: #fff;
+    border: 1px solid #e3e3e3;
+}
+form {
+    display: inline;
+    margin: none;
+}
+
+
+.login_wrap.renewal1904 .inner_box .login_section.otp190424 {
+    margin-bottom: 13px;
+    padding: 12px 40px;
+}
+.login_wrap.renewal1904 .inner_box .login_section {
+    border-bottom: none;
+    border-top: none;
+    margin-bottom: 5px;
+}
+.login_wrap .inner_box .login_section {
+    position: relative;
+    margin-bottom: 27px;
+    padding: 12px 0;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.login_wrap .inner_box .login_err_txt {
+    margin-left: 58px;
+    padding-left: 20px;
+    color: #c69c6c;
+    background: url(/_ui/desktop/common/images/common/ico_err.png) 0 0 no-repeat;
+    line-height: 15px;
+    font-size: 12px;
+    position: absolute;
+    top: 13px;
+    left: 0;
+}
+
+.login_wrap.renewal1904 .border_box2 {
+    border-top: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    overflow: hidden;
+    float: left;
+    width: 415px;
+    height: 457px;
+    padding: 40px;
+}
+
+.box_type_1.renewal1904 .border_box1 {
+    position: relative;
+}
+.box_type_1.renewal1904 .border_box1 {
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+    float: left;
+    width: 495px;
+    height: 537px;
+}
+
+.box_type_1.renewal1904 .border_box1 .title_wrap {
+    border-bottom: 1px solid #e3e3e3;
+    width: 457px;
+    margin: 0 auto;
+}
+.title_wrap {
+    position: relative;
+    margin-bottom: 15px;
+    min-height: 25px;
+    overflow: hidden;
+}
+
+.login_wrap.renewal1904 .inner_box .login_section .btn_login {
+    width: 415px;
+    height: 42px;
+    position: inherit;
+    top: 0;
+    padding: 0;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 0;
+}
+.login_wrap .inner_box .login_section .btn_login {
+    position: absolute;
+    top: 39px;
+    right: 0;
+    width: 120px;
+    height: 70px;
+    background: #4a4a4a;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 70px;
+}
+a:link, a:active, a:visited, a {
+    text-decoration: none;
+}
+a {
+    color: #444;
+    outline: none;
+}
+
+
+.box_type_1.renewal1904 .border_box1 {
+    border: 1px solid #e3e3e3;
+    overflow: hidden;
+    float: left;
+    width: 495px;
+    height: 537px;
+}
+.border_box1{
+	border: 5px solid #efefef;
+    overflow: hidden;
+    float: left;
+    width: 495px;
+    height: 340px;
+    padding: 40px;
+}
+.border_box2{
+    border-top: 5px solid #efefef;
+    border-right: 5px solid #efefef;
+    border-bottom: 5px solid #efefef;
+    overflow: hidden;
+    float: left;
+    width: 495px;
+    height: 340px;
+    padding: 40px;
+}
+.footer-area{
+	clear:both;
+}
+.title_wrap{
+    position: relative;
+    margin-bottom: 15px;
+    min-height: 25px;
+    overflow: hidden;
+}
+.title_wrap .txt {
+    margin-top: 15px;
+    font-size: 12px;
+    line-height: 22px;
+    display: block;
+    clear: both;
+}
+.bbtn{
+	width:100%;
+	height: 42px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 2;
+    color:white;
+    background-color:#747474;
+    font-family: 'dalseobold';
+    margin:5px 0;
+    
+}
+.bbtn2{
+	width:100%;
+	height: 42px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 2;
+    color:white;
+    background-color:#747474;
+    font-family: 'dalseobold';
+    margin:21px 0;
+    
+}
+.bbtn2:hover{
+	font-family: "dalseobold";
+	color:white;
+    text-decoration: none;
+    outline: none;
+    font-size: 1.2rem;
+}
+.title_typ1{
+	padding-top:10px;
+}
+legend{
+	padding-top: 0px;
+    padding-bottom: 10px;
+}
+.inbox{
+	width:300px;
+	margin-top:3px;
+	margin-bottom:11px;
+}
+.mt10{
+	font-size:13.5px;
+}
