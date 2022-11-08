@@ -38,7 +38,7 @@ body {
       margin-left: 0;
       text-align: center;
    }
-   h3 { color: navy; }
+   h3 { color: navy; } 
 </style>
 
 </head>

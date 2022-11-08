@@ -20,8 +20,8 @@
     <!-- Active js -->
     <script defer="defer" src="resources/js/active.js"></script>
 	
-	<script src="resources/mLib/inCheck.js"></script>
 	
+	<script src="resources/mLib/inCheck.js"></script>
     <!-- Title -->
     <title>Fall IN Dog - 폴인독</title>
 
