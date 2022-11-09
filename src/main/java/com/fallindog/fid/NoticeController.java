@@ -111,7 +111,7 @@ public class NoticeController {
 	@RequestMapping(value="/ninsert", method=RequestMethod.POST)
 	public ModelAndView ninsert(HttpServletRequest request, 
 			HttpServletResponse response, ModelAndView mv, NoticeVO vo, RedirectAttributes rttr) {
-	
+		System.out.println("##########################"+vo);
 		// 1. 요청분석
 		String uri = "redirect:noticeList";
 		// 2. Service 처리

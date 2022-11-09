@@ -201,17 +201,17 @@
 						</div>
 						<div class="column_category" >
 							<select name="subject" >
-								<option value="n" ${pageMaker.cri.searchType == n ? 'selected' : '' }>[공지]</option>
-								<option value="a" ${pageMaker.cri.searchType == a ? 'selected' : '' }>[입양]</option>
+								<option value="[공지]" >[공지]</option>
+								<option value="[입양]" >[입양]</option>
 							</select>
 						</div>
 					</div>
 					<div class="write_content">
-						<textarea name="content" name="content" placeholder="내용을 입력하세요."></textarea>
+						<textarea name="content" placeholder="내용을 입력하세요."></textarea>
 					</div>
 				</div>
 				<!-- 사진첨부 기능 추가 필요 -->
-				<input type="file" name="img" id="uploadfilef" >
+				<!-- <input type="file" name="img" id="uploadfilef" >
 				<script>
 					$('#uploadfilef').change(function(){
 						if(this.files && this.files[0]) {
@@ -222,7 +222,7 @@
 							reader.readAsDataURL(this.files[0]);
 		               } // if   
 		           }); //change
-				</script>
+				</script> -->
 			</form>
 		</div>
     	
