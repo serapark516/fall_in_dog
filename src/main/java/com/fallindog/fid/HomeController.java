@@ -23,7 +23,7 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = {"/", "/index"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/", "/index, /home"}, method = RequestMethod.GET)
 	public String index(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
@@ -34,12 +34,17 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "index";
+		return "home";
 	}
 	
+	/*
+	 * @RequestMapping(value="/noticeList") public ModelAndView
+	 * noticeList(ModelAndView mv) { mv.setViewName("guide/noticeList"); return mv;
+	 * } //noticeList
+	 */	
 	@RequestMapping(value="/aboutUs")
 	public ModelAndView aboutUs(ModelAndView mv) {
-		mv.setViewName("/about-us");
+		mv.setViewName("guide/about-us");
 		return mv;
 	} //aboutUs
 	
@@ -51,7 +56,7 @@ public class HomeController {
 	
 	@RequestMapping(value="/contact")
 	public ModelAndView contact(ModelAndView mv) {
-		mv.setViewName("/contact");
+		mv.setViewName("guide/contact");
 		return mv;
 	} //contact
 	
