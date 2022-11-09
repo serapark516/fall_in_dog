@@ -14,5 +14,8 @@ public interface NoticeService {
 	
 	// ** 조회수 증가
 	int countUp(NoticeVO vo);
+
+	// ** 새글 등록
+	int insert(NoticeVO vo);
 	
 }

@@ -143,7 +143,7 @@
                                     </li>
                                     <li><a href="#">Community</a>
                                         <ul class="dropdown">
-                                            <li><a href="epilogue">입양후기</a></li>
+                                            <li><a href="review">입양후기</a></li>
                                             <li><a href="free">자유게시판</a></li>
                                             <li><a href="share">나눔장터</a></li>
                                         </ul>

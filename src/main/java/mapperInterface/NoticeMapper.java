@@ -13,4 +13,7 @@ public interface NoticeMapper {
 	
 	// ** 조회수 증가
 	int countUp(NoticeVO vo);
+	
+	// ** Insert: 새글등록 
+	int insert(NoticeVO vo);
 }

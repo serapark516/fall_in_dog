@@ -18,4 +18,13 @@
 	update notice set cnt=cnt+1 where nno=#{nno}
 </update>
 
+<!-- ** 원글 입력 -->
+<insert id="insert">
+	<selectKey keyProperty="nno" resultType="int" order="BEFORE">
+		select IFNULL(max(nno),0)+1 from notice
+	</selectKey>
+	insert into notice(nno,id,title,content,subject) 
+	values(#{nno},#{id},#{title},#{content},${subject})
+</insert>
+
 </mapper> 

@@ -29,4 +29,10 @@ public class NoticeServiceImpl implements NoticeService{
 		return mapper.countUp(vo);
 	}
 	
+	// ** Insert
+	@Override
+	public int insert(NoticeVO vo) {
+		return mapper.insert(vo);
+	}
+	
 }

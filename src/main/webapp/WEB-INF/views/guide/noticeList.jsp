@@ -107,7 +107,7 @@
                                     </li>
                                     <li><a href="#">Community</a>
                                         <ul class="dropdown">
-                                            <li><a href="epilogue">입양후기</a></li>
+                                            <li><a href="review">입양후기</a></li>
                                             <li><a href="free">자유게시판</a></li>
                                             <li><a href="share">나눔장터</a></li>
                                         </ul>
@@ -176,13 +176,26 @@
 		${message}<br>
 	</c:if>
 	<hr>
-	<!-- Search Form  -->
-	<div id="search-wrapper" >
-		<form action="#">
-			<input type="text" id="search" placeholder="Title or Content or ID">
-			<div id="close-icon"></div>
-			<input class="d-none" type="submit" value="">
-		</form>
+	<!-- title, Search Form , write -->
+	<div class="title_search_write">
+		<div><h4>Notice</h4></div>
+		
+			<!-- 세로 가운데 정렬 필요 -->
+			<div class="search_write">
+				<div id="search-wrapper" >
+					<form action="#">
+						<input type="text" id="search" placeholder="Title or Content or ID">
+						<div id="close-icon"></div>
+						<input class="d-none" type="submit" value="">
+					</form>
+				</div>
+				<div class="rinsert">
+					<!-- admin 만 보이게 -->
+					<a href="ninsertf">글쓰기</a>
+				</div>
+			</div>
+		<div>
+		</div>
 	</div>
 
 	<br><hr>
