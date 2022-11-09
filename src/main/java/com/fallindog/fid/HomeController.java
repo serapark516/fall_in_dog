@@ -12,10 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-/**
- * Handles requests for the application home page.
- */
 @Controller
+
 public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
@@ -23,7 +21,7 @@ public class HomeController {
 	/**
 	 * Simply selects the home view to render by returning its name.
 	 */
-	@RequestMapping(value = {"/", "/index"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/", "/home","/index"}, method = RequestMethod.GET)
 	public String index(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
@@ -34,12 +32,13 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
-		return "index";
+		return "home";
 	}
 	
 	@RequestMapping(value="/aboutUs")
 	public ModelAndView aboutUs(ModelAndView mv) {
 		mv.setViewName("/about-us");
+		
 		return mv;
 	} //aboutUs
 	

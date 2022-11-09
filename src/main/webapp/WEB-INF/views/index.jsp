@@ -7,6 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<<<<<<< HEAD
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script defer="defer"
+  	src="https://code.jquery.com/jquery-2.2.4.js"
+  	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  	crossorigin="anonymous"></script>
+  	
+    <!-- <script defer="defer" src="resources/js/jquery/jquery-3.2.1.min.js" ></script> -->
+=======
 
     <!-- Title -->
     <title>Original - Lifestyle Blog Template</title>
@@ -19,6 +30,7 @@
 
     <!-- jQuery (Necessary for All JavaScript Plugins) -->
     <script defer="defer" src="resources/js/jquery/jquery-2.2.4.min.js"></script>
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
     <!-- Popper js -->
     <script defer="defer" src="resources/js/popper.min.js"></script>
     <!-- Bootstrap js -->
@@ -27,6 +39,19 @@
     <script defer="defer" src="resources/js/plugins.js"></script>
     <!-- Active js -->
     <script defer="defer" src="resources/js/active.js"></script>
+<<<<<<< HEAD
+
+
+    <!-- Title -->
+    <title>Original - Lifestyle Blog Template</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="resources/img/core-img/favicon.ico">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="resources/css/style.css">
+
+=======
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 </head>
 
 <body>
@@ -96,7 +121,11 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-12">
+<<<<<<< HEAD
+                        <a href="home" class="original-logo"><img src="resources/img/core-img/logo.png" alt=""></a>
+=======
                         <a href="index.html" class="original-logo"><img src="resources/img/core-img/logo.png" alt=""></a>
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                     </div>
                 </div>
             </div>
@@ -109,10 +138,14 @@
                     <!-- Classy Menu -->
                     <nav class="classy-navbar justify-content-between">
 
+<<<<<<< HEAD
+                     
+=======
                         <!-- Subscribe btn -->
                         <div class="subscribe-btn">
                             <a href="#" class="btn subscribe-btn" data-toggle="modal" data-target="#subsModal">Subscribe</a>
                         </div>
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
@@ -129,6 +162,15 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
+<<<<<<< HEAD
+                                    <li><a href="home">Home</a></li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="dropdown">
+                                            <li><a href="home">Home</a></li>
+                                            <li><a href="about-us.html">About Us</a></li>
+                                            <li><a href="single-post.html">Single Post</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+=======
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
@@ -136,6 +178,7 @@
                                             <li><a href="aboutUs">About Us</a></li>
                                             <li><a href="singlePost">Single Post</a></li>
                                             <li><a href="contact">Contact</a></li>
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                                             <li><a href="coming-soon.html">Coming Soon</a></li>
                                         </ul>
                                     </li>
@@ -164,7 +207,11 @@
                                             <li><a href="#">Catagory 1</a></li>
                                         </ul>
                                     </li>
+<<<<<<< HEAD
+                                    <li><a href="home.jsp">About Us</a></li>
+=======
                                     <li><a href="about-us.html">About Us</a></li>
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                                     <li><a href="#">Megamenu</a>
                                         <div class="megamenu">
                                             <ul class="single-mega cn-col-4">
@@ -201,7 +248,11 @@
                                             </ul>
                                         </div>
                                     </li>
+<<<<<<< HEAD
+                                    <li><a href="home.jsp">Contact</a></li>
+=======
                                     <li><a href="contact.html">Contact</a></li>
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                                 </ul>
 
                                 <!-- Search Form  -->
@@ -227,7 +278,26 @@
         <!-- Hero Slides Area -->
         <div class="hero-slides owl-carousel">
             <!-- Single Slide -->
+<<<<<<< HEAD
+            <div class="single-hero-slide bg-img" style="background-image: url(resources/img/bg-img/b2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="slide-content text-center">
+                                <div class="post-tag">
+                                    <a href="#" data-animation="fadeInUp">lifestyle</a>
+                                </div>
+                                <h2 data-animation="fadeInUp" data-delay="250ms"><a href="#">Take a look at last night’s party!</a></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(resources/img/bg-img/b1.jpg);">
+=======
             <div class="single-hero-slide bg-img" style="background-image: url(resources/img/bg-img/1.jfif);">
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -242,6 +312,9 @@
                 </div>
             </div>
             <!-- Single Slide -->
+<<<<<<< HEAD
+            <div class="single-hero-slide bg-img" style="background-image: url(resources/img/bg-img/b3.jpg);">
+=======
             <div class="single-hero-slide bg-img" style="background-image: url(resources/img/bg-img/4.jfif);">
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
@@ -258,6 +331,7 @@
             </div>
             <!-- Single Slide -->
             <div class="single-hero-slide bg-img" style="background-image: url(resources/img/bg-img/3.jfif);">
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                 <div class="container h-100">
                     <div class="row h-100 align-items-center">
                         <div class="col-12">
@@ -295,7 +369,11 @@
                 <!-- Single Blog Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-catagory-area clearfix mb-100">
+<<<<<<< HEAD
+                        <img src="resources/img/blog-img/1.jpg" alt="">
+=======
                         <img src="resources/img/blog-img/3.jfif" alt="">
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                         <!-- Catagory Title -->
                         <div class="catagory-title">
                             <a href="#">Lifestyle posts</a>
@@ -305,7 +383,11 @@
                 <!-- Single Blog Area -->
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="single-catagory-area clearfix mb-100">
+<<<<<<< HEAD
+                        <img src="resources/img/blog-img/2.jpg" alt="">
+=======
                         <img src="resources/img/blog-img/4.jfif" alt="">
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                         <!-- Catagory Title -->
                         <div class="catagory-title">
                             <a href="#">latest posts</a>
@@ -324,7 +406,11 @@
                         <div class="row align-items-center">
                             <div class="col-12 col-md-6">
                                 <div class="single-blog-thumbnail">
+<<<<<<< HEAD
+                                    <img src="resources/img/blog-img/3.jpg" alt="">
+=======
                                     <img src="resources/img/blog-img/5.jfif" alt="">
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                                     <div class="post-date">
                                         <a href="#">12 <span>march</span></a>
                                     </div>
@@ -664,7 +750,11 @@
                 <div class="col-12">
                    
                     <!-- Footer Nav Area -->
+<<<<<<< HEAD
+                    <div class="classy-nav-container breakpoint-off" >
+=======
                     <div class="classy-nav-container breakpoint-off">
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
                         <!-- Classy Menu -->
                         <nav class="classy-navbar justify-content-center">
 
@@ -715,7 +805,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 
     </footer>
+<<<<<<< HEAD
+=======
     <!-- ##### Footer Area End ##### -->
+>>>>>>> 024f1a2f6909c1354bcac786f3bc2486776bbc3a
 
 
 </body>
